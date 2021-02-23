@@ -1,0 +1,19 @@
+.container{
+    
+    background: yellow;
+    border: 1px solid black;
+    padding: 10px 3px 10px 3px;
+    border-radius: 30px;
+}
+
+.bt,.value{
+    margin-left: 25%;
+}
+
+.text-center{
+    font-family: 'Nova Flat', cursive;
+    margin-top: 20px;
+}
+#check{
+    background-color: aqua;
+}
