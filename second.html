@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age in days</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-center">Calculate Your Age in Days</h1><br>
+    <div class="container">
+        <div class="value">
+            <!-- <form action="post"> -->
+                
+                <label for="age"><strong>Enter your Birth Year:</strong></label>
+                <input type="number" placeholder="Enter Your Birth-Year" id="check" required><br>
+            <!-- </form> -->
+
+        </div>
+        <div class="bt">
+
+            <button class="btn btn-outline-primary" onclick="cal()" >Calculate</button>
+            <button class="btn btn-outline-danger" onclick="deleted()">Reset</button>
+        </div> <br>
+        <h4 class="result text-center" id="answer">
+            <!-- result will come here -->
+            Ans will come here
+        </h4>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
